@@ -1,0 +1,67 @@
+h1 {
+  color: #DF5E5E;
+}
+
+.redfont {
+  color: #DF5E5E;
+}
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.topcontainer {
+  align-self: center;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.sideimage {
+  position: absolute;
+  right: 500px;
+  top: 30px;
+  height: 400px;
+}
+
+.text {
+  width: 50%;
+  left: 500px;
+  top: 20px;
+  position: absolute;
+  align-self: center;
+}
+
+.main {
+  position: relative;
+}
+
+.signup {
+  padding: 5px 30px;
+  color: white;
+  background-color: #DF5E5E;
+  border-radius: 5px;
+  border: 2px solid #DF5E5E;
+}
+
+.signin {
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 2px solid #DF5E5E;
+  color: #DF5E5E;
+  background-color: white;
+}
+
+.box {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: lightgrey;
+}
+
+.checkbox {
+  border-radius: 5px;
+  display: block;
+}
