@@ -9,9 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <title>Create Account</title>
   <script>
-  function myFunction() {
-    alert("Sent!");
-  }
+    function signup() {
+      alert("Signing Up!");
+    }
+
+    function signin() {
+      alert("Signing In!")
+    }
+    )
   </script>
 </head>
 
@@ -21,17 +26,17 @@
 
       <h1>Create account</h1>
       <div class=topcontainer>
-        <img src="images/google.png" alt="google-image" class="logo">
-        <img src="images/facebook.png" alt="facebook-image" class="logo">
-        <img src="images/twitter.png" alt="twitter-img" class="logo">
-        <img src="images/vk_logo.png" alt="vk-img" class="logo">
+        <a target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <img src="images/google.png" alt="google-image" class="logo"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook-image" class="logo"></a>
+        <a target="_blank" href="https://twitter.com/login?lang=de"><img src="images/twitter.png" alt="twitter-img" class="logo"></a>
+        <a target="_blank" href="https://vk.com/?lang=en"><img src="images/vk_logo.png" alt="vk-img" class="logo"></a>
       </div>
 
 
       <p>or use your email for registration</p>
       <form class="box" action="index.html" method="post">
         <label></label>
-        <input type="text" name="name" value="Name">
+        <input type="text" name="name" maxlength="50" minlength="4" value="Name">
       </form>
       <form class="box" action="index.html" method="post">
         <label></label>
@@ -44,10 +49,10 @@
       <br>
 
       <input type="checkbox" name="agreement" value="">
-      <label>I agree to the <span class="redfont">Terms</span> and <span class="redfont">Privacy Policy</span>.</label>
+      <label>I agree to the <span class="redfont">Terms</span> and <span class="redfont" >Privacy Policy</span>.</label>
       <br><br>
-      <button class="signup" type="button" name="signup" onclick="myFunction()">Sign Up</button>
-      <button class="signin" type="button" name="signin" onclick="myFunction()">Sign In</button>
+      <button class="signup" type="button" name="signup" onclick="signup()">Sign Up</button>
+      <button class="signin" type="button" name="signin" onclick="signin()">Sign In</button>
     </div class="sideimage">
     <img src="images/sideimage.png" alt="side-image" class="sideimage" align="right">
     <div>
