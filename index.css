@@ -11,8 +11,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.topcontainer {
+.blue-container {
   align-self: center;
+  position: absolute;
 }
 
 .logo {
@@ -20,24 +21,16 @@ body {
   height: 20px;
 }
 
-.sideimage {
-  position: absolute;
-  right: 500px;
-  top: 30px;
-  height: 400px;
+.yellow-container-right {
+  position: relative;
+  right: 10px;
 }
 
-.text {
-  width: 50%;
-  left: 500px;
-  top: 20px;
-  position: absolute;
-  align-self: center;
-}
-
-.main {
+.yellow-container-left {
+  left: 10px;
   position: relative;
 }
+
 
 .signup {
   padding: 5px 30px;
