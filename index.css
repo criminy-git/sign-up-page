@@ -48,13 +48,37 @@ body {
   background-color: white;
 }
 
-.box {
-  padding: 10px 20px;
+.input-boxes {
+  padding: 20px 10px;
   border-radius: 5px;
-  color: lightgrey;
+  color: #EEEEEE;
+  border-color: #EEEEEE;
 }
+
+input[type="text"]::placeholder {
+padding-left: 5px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+input[type="email"]::placeholder {
+padding: 5px 10px;
+}
+
 
 .checkbox {
   border-radius: 5px;
   display: block;
+}
+
+form {
+  float: left;
+  width: 300px;
+}
+
+label[for="name"], label[for="email"], label[for="password"] {
+  float: left;
+  width: 150px;
+  margin-bottom: 10px;
 }
