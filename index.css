@@ -24,6 +24,7 @@ body {
 .yellow-container-right {
   position: relative;
   right: 10px;
+  display: table-cell;
 }
 
 .yellow-container-left {
