@@ -11,7 +11,20 @@ body {
 }
 
 .blue-container {
-display: table-cell;
+  margin: auto;
+   width: 40%;
+}
+
+.green-container-header {
+  text-align: center;
+}
+
+.green-container-form {
+  text-align: center;
+}
+
+.green-container-socialmedia {
+  text-align: center;
 }
 
 .logo {
@@ -19,13 +32,14 @@ display: table-cell;
   height: 20px;
 }
 
+
 .yellow-container-right {
-vertical-align: top;
   display: table-cell;
+    padding-left: 30px;
 }
 
 .yellow-container-left {
-
+  vertical-align: top;
 display: table-cell;
 }
 
@@ -54,11 +68,11 @@ display: table-cell;
 }
 
 input[type="text"]::placeholder {
-padding-left: 5px;
-padding-top: 20px;
-padding-bottom: 20px;
-
+  padding-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 input[type="email"]::placeholder {
 padding: 5px 10px;
@@ -68,6 +82,10 @@ padding: 5px 10px;
 .checkbox {
   border-radius: 5px;
   display: block;
+  background-color: #DF5E5E;
+}
+
+input[type = "checkbox"]:checked {background-color: #DF5E5E;
 }
 
 form {
