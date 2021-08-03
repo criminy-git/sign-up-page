@@ -35,12 +35,12 @@ width: fit-content;
 
 .yellow-container-right {
   display: table-cell;
-    padding-left: 30px;
 }
 
 .yellow-container-left {
   vertical-align: top;
 display: table-cell;
+   padding-left: 30px; 
 }
 
 
