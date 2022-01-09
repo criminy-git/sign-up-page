@@ -1,6 +1,6 @@
 Sign Up Landing Page
 
-[Click here to view finished project](https://criminy-git.github.io/Sign-Up-Page/)
+[Click here to view finished project](https://criminy-git.github.io/sign-up-page/)
 
 
 
