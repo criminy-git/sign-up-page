@@ -1,6 +1,7 @@
-Sign up landing page 
+Sign Up Landing Page
 
 [Click here to view finished project](https://criminy-git.github.io/sign_up_page/)
+
 
 What I learned during this project (July 2021):
 - Attempting to replicate set specifications
